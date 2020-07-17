@@ -1,0 +1,43 @@
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.exe
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.pdb
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csprojResolveAssemblyReference.cache
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmBilgiDüzenle.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmBranş.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorBilgiDuzenle.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorDetay.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorGiris.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorPaneli.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDuyurular.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmGirisler.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmHastaGiriş.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmHastaKayit.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmRandevuListesi.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmSekreterDetay.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmSekreterGiris.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.Properties.Resources.resources
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csproj.GenerateResource.Cache
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csproj.CoreCompileInputs.cache
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.exe
+c:\users\tugcenur\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.pdb
+C:\Users\TUGCENUR\documents\visual studio 2017\Projects\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDetay.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.exe
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.pdb
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csprojAssemblyReference.cache
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmBilgiDüzenle.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmBranş.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDetay.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorBilgiDuzenle.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorDetay.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorGiris.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorPaneli.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDuyurular.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmGirisler.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmHastaGiriş.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmHastaKayit.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmRandevuListesi.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmSekreterDetay.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmSekreterGiris.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.Properties.Resources.resources
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csproj.GenerateResource.cache
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.exe
+E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.pdb
