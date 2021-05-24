@@ -127,6 +127,11 @@
     <Compile Include="FrmSekreterGiris.Designer.cs">
       <DependentUpon>FrmSekreterGiris.cs</DependentUpon>
     </Compile>
+    <Compile Include="HastaneProjeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneProjeDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlbaglantisi.cs" />
@@ -181,6 +186,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="app.config" />
+    <None Include="HastaneProjeDataSet.xsc">
+      <DependentUpon>HastaneProjeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneProjeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneProjeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneProjeDataSet.xss">
+      <DependentUpon>HastaneProjeDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

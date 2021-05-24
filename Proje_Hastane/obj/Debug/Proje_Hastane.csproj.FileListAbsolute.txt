@@ -41,3 +41,26 @@ E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.Proper
 E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csproj.GenerateResource.cache
 E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.exe
 E:\visualstudiokodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.pdb
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.exe.config
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.exe
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\bin\Debug\Proje_Hastane.pdb
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csprojAssemblyReference.cache
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmBilgiDüzenle.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmBranş.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDetay.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorBilgiDuzenle.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorDetay.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorGiris.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDoktorPaneli.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmDuyurular.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmGirisler.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmHastaGiriş.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmHastaKayit.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmRandevuListesi.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmSekreterDetay.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.FrmSekreterGiris.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.Properties.Resources.resources
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csproj.GenerateResource.cache
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.csproj.CoreCompileInputs.cache
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.exe
+C:\Users\A\OneDrive\Masaüstü\Github Kodlar\Proje_Hastane\Proje_Hastane\obj\Debug\Proje_Hastane.pdb
