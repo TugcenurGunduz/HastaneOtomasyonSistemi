@@ -104,6 +104,7 @@
             // 
             // FrmHastaGiriş
             // 
+            this.AcceptButton = this.btnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -120,7 +121,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmHastaGiriş";
-            this.Text = "FrmHastaGiriş";
+            this.Text = "Hasta Girişi";
             this.ResumeLayout(false);
             this.PerformLayout();
 

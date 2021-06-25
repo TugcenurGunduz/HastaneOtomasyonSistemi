@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.SqlClient;//sistem kütüphanemizi ekledik.
+using System.Data.SqlClient;
 
 namespace Proje_Hastane
 {
@@ -17,8 +17,8 @@ namespace Proje_Hastane
             InitializeComponent();
         }
 
-        public string TCnumara; //Tc kimlik numarasını taşımak için gerekli formda public değişken oluşturduk.
-        sqlbaglantisi bgl = new sqlbaglantisi();//sql bağlantı sınıfımızı çağırdık.
+        public string TCnumara; //Tc kimlik numarasını taşımak için gerekli formda public değişken oluşturuldu.
+        sqlbaglantisi bgl = new sqlbaglantisi();//sql bağlantı sınıfı çağrıldı.
 
         private void FrmSekreterDetay_Load(object sender, EventArgs e)
         {
@@ -36,14 +36,14 @@ namespace Proje_Hastane
 
 
             //Branşları Datagride aktarma
-            DataTable dt1 = new DataTable();//datatable sınıfından dt1 diye bşr nesne ürettim.o nesne yardımıyla aktarma işlemini gerçekleştiricez.
+            DataTable dt1 = new DataTable();//datatable sınıfından dt1 diye bşr nesne ürettim.o nesne yardımıyla aktarma işlemini gerçekleştirilecek.
             SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Branslar", bgl.baglanti());
             da.Fill(dt1);
             dataGridView1.DataSource = dt1;
 
             //Doktorları listeye aktarma
             DataTable dt2 = new DataTable();
-            SqlDataAdapter da2 = new SqlDataAdapter("Select (DoktorAd + ' ' + DoktorSoyad) as 'Doktorlar' ,DoktorBrans From Tbl_Doktorlar", bgl.baglanti());//doktor listesini deçektik
+            SqlDataAdapter da2 = new SqlDataAdapter("Select (DoktorAd + ' ' + DoktorSoyad) as 'Doktorlar' ,DoktorBrans From Tbl_Doktorlar", bgl.baglanti());//doktor listesindeki veriler çekildi
             da2.Fill(dt2);
             dataGridView2.DataSource = dt2;
 
@@ -59,7 +59,7 @@ namespace Proje_Hastane
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand komutkaydet = new SqlCommand("insert into Tbl_Randevularr (RandevuTarih,RandevuSaat,RandevuBrans,RandevuDoktor) values (@r1,@r2,@r3,@r4)",bgl.baglanti());
+            SqlCommand komutkaydet = new SqlCommand("insert into Tbl_Randevular (RandevuTarih,RandevuSaat,RandevuBrans,RandevuDoktor) values (@r1,@r2,@r3,@r4)",bgl.baglanti());
             komutkaydet.Parameters.AddWithValue("@r1", mskTarih.Text);
             komutkaydet.Parameters.AddWithValue("@r2", MskSaat.Text);
             komutkaydet.Parameters.AddWithValue("@r3", CmbBrans.Text);

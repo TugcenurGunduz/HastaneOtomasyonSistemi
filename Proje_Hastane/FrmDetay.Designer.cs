@@ -121,6 +121,7 @@
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(121, 31);
             this.TxtId.TabIndex = 8;
+//            this.TxtId.TextChanged += new System.EventHandler(this.TxtId_TextChanged);
             // 
             // label2
             // 

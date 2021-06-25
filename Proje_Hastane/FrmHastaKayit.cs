@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -22,7 +23,7 @@ namespace Proje_Hastane
         private void BtnKayitOl_Click(object sender, EventArgs e)
         {
             //bağlantı açık olduğu için tekrar açmadık.
-            SqlCommand komut = new SqlCommand("insert into tbl_Hastalar(HastaAd,HastaSoyad,HastaTC,HastaTelefon,HastaSifre,HastaCinsiyet) values (@p1,@p2,@p3,@p4,@p5,@p6)",bgl.baglanti());//bgl bu formun içinde oluşturduğumuz nesneydi
+            SqlCommand komut = new SqlCommand("insert into Tbl_Hastalar(HastaAd,HastaSoyad,HastaTC,HastaTelefon,HastaSifre,HastaCinsiyeti) values (@p1,@p2,@p3,@p4,@p5,@p6)",bgl.baglanti());//bgl bu formun içinde oluşturduğumuz nesneydi
             //bgl yi sql bağlantı sınıfımızdan türettiğimiz için çok rahat kullanabiliriz
             komut.Parameters.AddWithValue("@p1", txtAd.Text);
             komut.Parameters.AddWithValue("@p2", txtSoyad.Text);

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -22,7 +23,7 @@ namespace Proje_Hastane
         private void FrmDoktorPaneli_Load(object sender, EventArgs e)
         {
             DataTable dt1 = new DataTable();
-            SqlDataAdapter da1 = new SqlDataAdapter("Select * From Tbl_Doktorlar", bgl.baglanti());//doktor listesini deçektik
+            SqlDataAdapter da1 = new SqlDataAdapter("Select * From Tbl_Doktorlar", bgl.baglanti());//doktor listesi
             da1.Fill(dt1);
             dataGridView1.DataSource = dt1;
 
@@ -81,5 +82,7 @@ namespace Proje_Hastane
             bgl.baglanti().Close();
             MessageBox.Show("Doktor Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+
     }
 }

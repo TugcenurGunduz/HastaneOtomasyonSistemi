@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Data.SqlClient; //kütüphanemizi ekledik
 using System.Windows.Forms;
 
@@ -27,7 +28,7 @@ namespace Proje_Hastane
             if(dr.Read())
             {
                 FrmSekreterDetay frs = new FrmSekreterDetay();
-                frs.TCnumara = MskTC.Text;//
+                frs.TCnumara = MskTC.Text;
                 frs.Show();
                 this.Hide();
             }

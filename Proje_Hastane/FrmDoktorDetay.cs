@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -35,7 +36,7 @@ namespace Proje_Hastane
 
             //Randevular
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevularr where RandevuDoktor='" + LblAdSoyad + "'", bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where RandevuDoktor='" + LblAdSoyad + "'", bgl.baglanti());
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }

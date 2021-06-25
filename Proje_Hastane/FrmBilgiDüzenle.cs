@@ -40,7 +40,7 @@ namespace Proje_Hastane
 
         private void BtnBilgiGüncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut2 = new SqlCommand("update Tbl_Hastalar set HastaAd=@p1,HastaSoyad=@p2,HastaTelefon=@p3,HastaSifre=@p4,HastaCinsiyet=@p5 Where HastaTC=@p6",bgl.baglanti());
+            SqlCommand komut2 = new SqlCommand("update Tbl_Hastalar set HastaAd=@p1,HastaSoyad=@p2,HastaTelefon=@p3,HastaSifre=@p4,HastaCinsiyeti=@p5 Where HastaTC=@p6",bgl.baglanti());
             komut2.Parameters.AddWithValue("@p1", txtAd.Text);
             komut2.Parameters.AddWithValue("@p2", txtSoyad.Text);
             komut2.Parameters.AddWithValue("@p3", MskTelefon.Text);

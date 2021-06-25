@@ -38,7 +38,7 @@ namespace Proje_Hastane
 
             //Randevu Geçmişi
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("Select *From Tbl_Randevularr Where HastaTC=" + tc, bgl.baglanti());//data adapter bizim datagrid e verileri aktarmak için kullandığımız commanddı.
+            SqlDataAdapter da = new SqlDataAdapter("Select *From Tbl_Randevular Where HastaTC=" + tc, bgl.baglanti());//data adapter bizim datagrid e verileri aktarmak için kullandığımız commanddı.
             da.Fill(dt);
             dataGridView1.DataSource = dt;
 
@@ -47,14 +47,14 @@ namespace Proje_Hastane
             SqlDataReader dr2 = komut2.ExecuteReader();
             while(dr2.Read())
             {
-                CmbBrans.Items.Add(dr2[0]);//combobox ın itemsına dr2 den gelen 0. indisin değerini ekle.0. indis bir üstteki sqlsorgusudur
+                CmbBrans.Items.Add(dr2[0]);//combobox ın itemsına dr2 den gelen 0. indisin değerini ekle.0. indis bir üstteki sql sorgusudur
             }
             bgl.baglanti().Close();
         }
 
         private void CmbBrans_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CmbDoktor.Items.Clear();//comboboxta seçtiğimizdeönce içeriğini tezmizlesin.bu komutu yazmasaydık önceden seçilmiş olan bir diper branşın doktoru da görünürdü.
+            CmbDoktor.Items.Clear();//comboboxta seçtiğimizdeönce içeriğini tezmizlesin.bu komutu yazmasaydık önceden seçilmiş olan bir diğer branşın doktoru da görünürdü.
             SqlCommand komut3 = new SqlCommand("Select DoktorAd,DoktorSoyad From Tbl_Doktorlar Where DoktorBrans=@p1", bgl.baglanti());
             komut3.Parameters.AddWithValue("@p1",CmbBrans.Text);
             SqlDataReader dr3 = komut3.ExecuteReader();
@@ -68,7 +68,7 @@ namespace Proje_Hastane
         private void CmbDoktor_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevularr Where RandevuBrans='" + CmbBrans.Text + "' and RandevuDoktor= '" + CmbDoktor.Text +"'", bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular Where RandevuBrans='" + CmbBrans.Text + "' and RandevuDoktor= '" + CmbDoktor.Text +"'", bgl.baglanti());
             da.Fill(dt);
             dataGridView2.DataSource = dt;
         }
@@ -88,7 +88,7 @@ namespace Proje_Hastane
 
         private void BtnRandevuAl_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Update Tbl_Randevularr Set RandevuDurum=1,HastaTC=@p1,HastaSikayet=@p2 where RandevuId=@p3", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Update Tbl_Randevular Set RandevuDurum=1,HastaTC=@p1,HastaSikayet=@p2 where RandevuId=@p3", bgl.baglanti());
             komut.Parameters.AddWithValue("@p1", LblTC.Text);
             komut.Parameters.AddWithValue("@p2", RchSikayet.Text);
             komut.Parameters.AddWithValue("@p3", TxtId.Text);
@@ -96,5 +96,6 @@ namespace Proje_Hastane
             bgl.baglanti().Close();
             MessageBox.Show("Randevu Alındı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
     }
 }

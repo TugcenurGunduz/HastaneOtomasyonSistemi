@@ -38,7 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.CmbBrans = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.BtnBilgiGüncelle = new System.Windows.Forms.Button();
+            this.BtnBilgiGuncelle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtSoyad
@@ -131,17 +131,17 @@
             this.label5.TabIndex = 35;
             this.label5.Text = "Branş:";
             // 
-            // BtnBilgiGüncelle
+            // BtnBilgiGuncelle
             // 
-            this.BtnBilgiGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BtnBilgiGüncelle.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnBilgiGüncelle.Location = new System.Drawing.Point(333, 400);
-            this.BtnBilgiGüncelle.Name = "BtnBilgiGüncelle";
-            this.BtnBilgiGüncelle.Size = new System.Drawing.Size(93, 34);
-            this.BtnBilgiGüncelle.TabIndex = 36;
-            this.BtnBilgiGüncelle.Text = "Güncelle";
-            this.BtnBilgiGüncelle.UseVisualStyleBackColor = false;
-            this.BtnBilgiGüncelle.Click += new System.EventHandler(this.BtnBilgiGüncelle_Click);
+            this.BtnBilgiGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnBilgiGuncelle.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnBilgiGuncelle.Location = new System.Drawing.Point(333, 400);
+            this.BtnBilgiGuncelle.Name = "BtnBilgiGuncelle";
+            this.BtnBilgiGuncelle.Size = new System.Drawing.Size(93, 34);
+            this.BtnBilgiGuncelle.TabIndex = 36;
+            this.BtnBilgiGuncelle.Text = "Güncelle";
+            this.BtnBilgiGuncelle.UseVisualStyleBackColor = false;
+            this.BtnBilgiGuncelle.Click += new System.EventHandler(this.BtnBilgiGüncelle_Click);
             // 
             // FrmDoktorBilgiDuzenle
             // 
@@ -150,7 +150,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(685, 446);
-            this.Controls.Add(this.BtnBilgiGüncelle);
+            this.Controls.Add(this.BtnBilgiGuncelle);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.CmbBrans);
             this.Controls.Add(this.TxtSifre);
@@ -184,6 +184,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox CmbBrans;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button BtnBilgiGüncelle;
+        private System.Windows.Forms.Button BtnBilgiGuncelle;
     }
 }
